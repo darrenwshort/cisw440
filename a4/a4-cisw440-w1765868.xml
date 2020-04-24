@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="a4-cisw440-w1765868.xsl" ?>
+<!DOCTYPE PatientList SYSTEM "a4-cisw440-w1765868.dtd">
+
+<!-- Assignment #4: Patient List (XML version)        -->
+<!-- Topic:         Ch.7 & 8, Entities/Notations/DTDs -->
+<!-- Due Date:      4/19/20                           --> 
+<!-- Course:        CISW 440 Spr 2020                 -->
+<!-- Author:        Darren Short                      -->
+<!-- SID:           w1765868                          -->
+
+<PatientList>
+	<Patient>
+    <Id>1</Id>
+		<FullName>John Doe</FullName>
+    <Dob>3/2/1987</Dob>
+    &genderMale;
+    <ServiceDate>4/5/2016</ServiceDate>
+		<ProcedureCode>99215</ProcedureCode>
+		<PrimaryDiagnosis>R51</PrimaryDiagnosis>
+ 	</Patient>
+	<Patient>
+    <Id>2</Id>
+		<FullName>Jane Doe</FullName>
+    <Dob>7/13/1977</Dob>
+    <Gender>Female</Gender>
+		<ServiceDate>2/3/2016</ServiceDate>
+		<ProcedureCode>99213</ProcedureCode>
+		<PrimaryDiagnosis>Z34.0</PrimaryDiagnosis>
+ 	</Patient>
+	<Patient>
+    <Id>3</Id>
+		<FullName>Jackie Chan</FullName>
+    <Dob>9/23/2010</Dob>
+    &genderMale;
+		<ServiceDate>10/5/2016</ServiceDate>
+		<ProcedureCode>99214</ProcedureCode>
+		<PrimaryDiagnosis>S92.302A</PrimaryDiagnosis>
+ 	</Patient>
+	<Patient>
+    <Id>4</Id>
+		<FullName>Chuck Norris</FullName>
+    <Dob>5/15/2015</Dob>
+    &genderMale;
+		<ServiceDate>8/12/2016</ServiceDate>
+		<ProcedureCode>99283</ProcedureCode>
+		<PrimaryDiagnosis>813.80</PrimaryDiagnosis>
+ 	</Patient>
+  <Patient>
+    <Id>5</Id>
+		<FullName>Bruce Lee</FullName>
+    <Dob>1/2/1934</Dob>
+    &genderMale;
+		<ServiceDate>2/6/2014</ServiceDate>
+		<ProcedureCode>99202</ProcedureCode>
+		<PrimaryDiagnosis>R51</PrimaryDiagnosis>
+ 	</Patient>
+  <Patient>
+    <Id>6</Id>
+		<FullName>Monica Latte</FullName>
+    <Dob>4/4/1950</Dob>
+    <Gender>Female</Gender>
+		<ServiceDate>12/31/2015</ServiceDate>
+		<ProcedureCode>99208</ProcedureCode>
+		<PrimaryDiagnosis>v20.0</PrimaryDiagnosis>
+ 	</Patient>
+</PatientList>

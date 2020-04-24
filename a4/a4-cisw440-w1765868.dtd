@@ -1,0 +1,13 @@
+<!ENTITY genderMale SYSTEM "gender_male.ent">
+
+<!ELEMENT PatientList (Patient+)>
+<!ELEMENT Patient (Id, FullName, Dob, Gender, ServiceDate, 
+                    ProcedureCode, PrimaryDiagnosis)>
+<!ELEMENT Id                (#PCDATA)>
+<!ELEMENT FullName          (#PCDATA)>
+<!ELEMENT Dob               (#PCDATA)>
+<!ELEMENT Gender            (#PCDATA)>
+<!ELEMENT ServiceDate       (#PCDATA)>
+<!ELEMENT ProcedureCode     (#PCDATA)>
+<!ELEMENT PrimaryDiagnosis  (#PCDATA)>
+
